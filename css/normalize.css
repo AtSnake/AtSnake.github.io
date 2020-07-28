@@ -1,0 +1,42 @@
+/* navbar */
+
+nav{
+    background: linear-gradient(to bottom, black , transparent);
+}
+
+.nav-link{
+    font-weight: bold;
+    color: white;
+    text-shadow: black 3px 2px 4px;
+}
+
+/* navbar */
+
+@media (min-width: 320px){
+    .navbar-logo{
+        width: 100px;
+    }
+    .nav-link{
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 768px){
+    .navbar-logo{
+        width: 140px;
+    }
+    .navbar-nav{
+        position: fixed;
+        right: 30px;
+    }
+    .nav-item{
+        margin-left: 10px;
+    }   
+}
+
+@media (min-width: 1024px){
+}
+
+@media (min-width: 1440px){
+
+}
